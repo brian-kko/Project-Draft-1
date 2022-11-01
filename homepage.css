@@ -24,6 +24,7 @@
 }
 .sidebar li 
 {
+    font-family: sans-serif;
     padding: 10px;
     list-style:none;
     position: relative;
