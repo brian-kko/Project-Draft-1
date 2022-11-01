@@ -15,26 +15,43 @@
     justify-content: center;
 }
   
-#sidebar 
+.sidebar 
 {
     grid-row-start: span 3; 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-decoration: none;
+}
+.sidebar li 
+{
+    padding: 10px;
+    list-style:none;
+    position: relative;
+}
+
+.sidebar ul li a
+{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.sidebar ul li a:hover
+{
+    color: rgb(150, 150, 150);
 }
   
-#title 
+.title 
 {
     grid-column-start: span 4;
 }
   
-#content 
+.content 
 {
     grid-column-start: span 4;
 }
   
-#footer 
+.footer 
 {
     grid-column: 2 / span 4;
 }
