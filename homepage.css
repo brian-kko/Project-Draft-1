@@ -39,8 +39,8 @@ body {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    color: rgb(0, 0, 0);
-    background-color: white;
+    color: white;
+    background-color: black;
     padding: 10px 15px;
     border: none;
 }
@@ -52,7 +52,26 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
-    color: #111;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.91)),url('/img/NY2.jpg');
+    margin-bottom: 0px;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer
+{
+    margin-top: 0px;
+    width:100%;
+    font-size: smaller;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    color:rgb(59, 59, 59);
+    background-color: rgb(143, 143, 143);
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
