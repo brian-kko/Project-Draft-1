@@ -13,9 +13,8 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(194, 194, 194);
+    background-color: black;
     color: white;
-    height: 45px;
 }
 
 .brand-title {
@@ -67,17 +66,7 @@ body {
     background-color: white;
     border-radius: 10px;
 }
-.content
-{
-    height:500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    margin: 0ch;
-    padding: 0%;
-    color: white;
-    background-image: url('/img/NY2.jpg');
-}
+
 footer
 {
     display: flex;
@@ -86,7 +75,7 @@ footer
     bottom: 0ch;
     font-weight: bold;
     color: white;
-    background-color: rgb(194, 194, 194);
+    background-color: black;
 }
 
 @media (max-width: 800px) {
