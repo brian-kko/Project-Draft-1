@@ -1,47 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homepage.css" type="text/css" >
-    <link rel="stylesheet" href="normalize.css" type="text/css" >
-    <title>Why It Matters</title>
-    
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script>
-        function openNav() {
-            document.getElementById("mySidebar").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-        }
-    </script>
-</head>
-
-<body>
-
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="homepage.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="why.html">Why It Matters</a>
-        <a href="getInvolved.html">Get Involved</a>
-    </div>
-
-    <div id="main">
-        <button class="openbtn" onclick="openNav()">☰</button>
-        <h2>Main Text</h2>
-        <p> Bottom Text</p>
-    </div>
-
-    <footer>
-        <p>&copy Kaden Kwan And Brian Ko 2022</p>
-    </footer>
-</body>
-
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="normalize.css" type="text/css">
+        <script src="script.js" defer></script>
+        <title>Why</title>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="brand-title">Why</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="why.html">Why</a></li>
+            <li><a href="getInvolved.html">Get Involved</a></li>
+          </ul>
+        </div>
+      </nav>
+    </body>
 </html>
