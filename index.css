@@ -1,0 +1,11 @@
+.content
+{
+    height:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0ch;
+    padding: 0%;
+    color: white;
+    background-image: url('/img/NY2.jpg');
+}
