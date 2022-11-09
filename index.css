@@ -19,4 +19,8 @@
     font-size: 60%;
     color: #EFEFEF;
     margin-bottom: 100px;
+    background-color: rgba(58, 56, 56, 0.6);
+    border-radius: 25px;
+    padding: 20px;
+    width: fit-content;
 }
