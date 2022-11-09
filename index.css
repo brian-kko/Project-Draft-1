@@ -1,11 +1,22 @@
-.content
-{
-    height:auto;
+.content {
+    min-height: 900px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     background-size: cover;
     display: flex;
     margin: 0ch;
-    padding: 0%;
+    padding-left: 30px;
     color: white;
-    background-image: url('/img/NY2.jpg');
+    font-size: 300%;
+    background-image: url("img/NY6.jpg");
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 60%;
+    color: #EFEFEF;
+    margin-bottom: 100px;
 }
