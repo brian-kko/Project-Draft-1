@@ -11,7 +11,7 @@
     padding-left: 30px;
     color: white;
     font-size: 300%;
-    background-image: url("img/NY6.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/NY6.jpg");
     justify-content: space-between;
     flex-direction: column;
     font-weight: bold;
