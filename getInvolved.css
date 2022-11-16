@@ -47,9 +47,8 @@ form button {
     border-radius: 30px;
 }
 
-span {
-    color: blue;
-    margin-top: 10px;
-    display: block;
-
+form button:hover
+{
+    transition: 1s;
+    background:gray;
 }
