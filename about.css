@@ -9,21 +9,31 @@
     line-height: 4vw;
 }
 
+header
+{
+    font-size: 2vw;
+}
+
 #top
 {
     flex-direction: row-reverse;
 }
 
-#bottom
+#mid
 {
     background-color:black;
     color: lightgray;
 }
 
+#bottom
+{
+    flex-direction: column;
+}
+
 /* p -> text on left, img on right */
 .content p {
     font-family: sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: bolder;
     margin: 20px;
 }
