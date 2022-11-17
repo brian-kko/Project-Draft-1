@@ -47,17 +47,33 @@ header
     flex-direction: column;
 }
 
+.text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.text h2
+{
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    margin: 20px;
+}
+
 /* p -> text on left, img on right */
 .content p {
     font-family: sans-serif;
     font-size: 2vw;
-    font-weight: bolder;
+    font-weight: normal;
     margin: 20px;
+    margin-top: 0px;
 }
 
 /* relevant img background for each div */
 .content img {
-    width: 50%;
+    width: 60%;
     height: 100%;
     border-radius: 10px;
 }

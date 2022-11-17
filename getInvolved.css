@@ -24,6 +24,7 @@ header
 .content h2
 {
     text-align: center;
+    font-size: 3vh;
 }
 
 .content table
