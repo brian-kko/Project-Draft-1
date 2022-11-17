@@ -1,1 +1,19 @@
 /*CSS for Why*/
+
+header
+{
+    font-size: 2vh;
+    margin:10px;
+}
+
+.content
+{
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    padding: 20px;
+    align-items: center;
+    line-height: 4vw;
+    font-weight: bolder;
+}

@@ -1,4 +1,42 @@
 /*CSS for Get Involved*/
+header
+{
+    font-size: 2vw;
+    margin: 10px;
+}
+
+.content
+{
+
+}
+
+.content table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.content table th
+{
+    font-size: 2vh;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+.content table tr td
+{
+    font-weight: normal;
+    font-size: 2vh;
+    text-align: center;
+    padding:10px;
+}
+
+.content tr:nth-child(even) 
+{
+    background-color: lightgray;
+}
 
 .subscribe {
     width: 100%;
@@ -49,6 +87,6 @@ form button {
 
 form button:hover
 {
-    transition: 1s;
+    transition: .5s;
     background:gray;
 }
