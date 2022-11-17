@@ -1,5 +1,4 @@
 /*CSS for Why*/
-
 .banner
 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/NY3.png");
@@ -19,7 +18,7 @@
 
 header
 {
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
 .content
@@ -30,7 +29,31 @@ header
     flex-direction: column;
     background-color: lightgray;
     padding: 20px;
-    align-items: center;
+    align-items: left;
     line-height: 4vw;
     font-weight: bolder;
+}
+
+#second
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/NY4.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size:cover;
+    color: lightgray;
+}
+
+@media (max-width: 800px)
+{
+    header
+    {
+        font-size: 6vw;
+    }
+
+    .content
+    {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
 }
